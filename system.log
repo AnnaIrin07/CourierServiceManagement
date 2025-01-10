@@ -1,0 +1,23 @@
+[05-01-2025 13:47:54] New user registered: Anna
+[05-01-2025 13:48:06] User logged in: Anna (Role: User)
+[05-01-2025 13:49:21] Error: Invalid credentials.
+[05-01-2025 14:06:51] Parcel booked: a1e057c7-50c8-4802-bcc7-034c2a9db85c, Sender: Aleena, Receiver: Amal, Cost: 212.00, Booked By: anna
+[05-01-2025 16:25:37] Error: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Parcels__BookedB__3A81B327". The conflict occurred in database "ParcelDB", table "dbo.Users", column 'Username'.
+The statement has been terminated.
+[05-01-2025 16:27:46] Error: The INSERT statement conflicted with the FOREIGN KEY constraint "FK__Parcels__BookedB__3A81B327". The conflict occurred in database "ParcelDB", table "dbo.Users", column 'Username'.
+The statement has been terminated.
+[06-01-2025 18:22:12] Error: Cannot insert explicit value for identity column in table 'Parcels' when IDENTITY_INSERT is set to OFF.
+[06-01-2025 18:44:04] Error: Cannot insert explicit value for identity column in table 'Parcels' when IDENTITY_INSERT is set to OFF.
+[06-01-2025 18:47:02] Error: Cannot insert explicit value for identity column in table 'Parcels' when IDENTITY_INSERT is set to OFF.
+[07-01-2025 09:47:12] Error: Parcel not found.
+[07-01-2025 09:50:25] Error: Cannot insert explicit value for identity column in table 'Parcels' when IDENTITY_INSERT is set to OFF.
+[07-01-2025 15:15:41] Error: Cannot insert explicit value for identity column in table 'Parcels' when IDENTITY_INSERT is set to OFF.
+[07-01-2025 15:22:08] Error: Cannot insert explicit value for identity column in table 'Parcels' when IDENTITY_INSERT is set to OFF.
+[07-01-2025 16:17:26] Parcel booked: Sender: erty, Receiver: thaju, Cost: 585.00, Booked By: anna, Place: Thevakkal
+[07-01-2025 16:20:32] Parcel booked: Sender: shil, Receiver: nima, Cost: 625.00, Booked By: anna, Place: bengalore
+[08-01-2025 06:39:27] Error: Procedure or function 'BookParcel' expects parameter '@Status', which was not supplied.
+[08-01-2025 06:54:01] Error: Procedure or function 'BookParcel' expects parameter '@BookedBy', which was not supplied.
+[08-01-2025 06:56:43] Parcel booked: Sender: anand, Receiver: binu, Cost: 364.00, Booked By: anna, Place: aluva
+[08-01-2025 06:57:29] Error: Could not find stored procedure 'TrackParcel'.
+[08-01-2025 07:13:29] Report generated.
+[08-01-2025 07:14:02] Error: Could not find stored procedure 'ViewAllParcels'.
